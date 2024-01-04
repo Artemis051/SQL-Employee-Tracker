@@ -23,7 +23,7 @@ function startApp() {
         case 'View all departments':
           Queries.viewAllDepartments().then((result) => {
             console.table(result[0]);
-            startApp(); // Continue prompting
+            startApp(); 
           });
           break;
 
